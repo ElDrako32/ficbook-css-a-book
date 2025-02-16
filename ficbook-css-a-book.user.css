@@ -5,7 +5,7 @@
 @author       ElDrako (https://github.com/ElDrako32)
 @homepageURL  https://github.com/ElDrako32/ficbook-css-a-book
 @supportURL   https://github.com/ElDrako32/ficbook-css-a-book/issues
-@version      1.0.1
+@version      1.0.3
 ==/UserStyle== */
 @-moz-document regexp("https?://(.+\\.)?ficbook.net/readfic/.+") {
     div#content.part_text {
@@ -19135,6 +19135,25 @@
     div.notifications-dropdown-content {
         width: 800px!important;
     }
+    div#cf-error-details {
+        background-color: #f6ecda;
+        width: 80%;
+        margin: 10%;
+        border-radius: 15px;
+    }
+    div#cf-error-details > header > span {
+        display: block;
+    }
+    div#what-happened-section {
+        width: 100%;
+    }
+.txt-side {
+    max-width: 800px;
+    margin: 15px;
+    background-color: #ccc;
+    border-radius: 15px;
+    padding: 1em;
+}
 }
 
 @-moz-document regexp("https?://(.+\\.)?ficbook.net/printfic/.+") {
